@@ -24,7 +24,7 @@ export default function Navbar({ currentPage, showPage, cartCount, onCartOpen })
     <nav>
       <div className="nav-inner">
         <a href="#" className="nav-logo" onClick={(e) => handleLinkClick(e, 'home')} style={{ display: 'flex', alignItems: 'center' }}>
-          <img src="public/img/imG/public/img/imG/ChatGPT Image 15 de jun. de 2026, 16_53_19.png" alt="Doces Mirahy Logo" style={{ height: '50px', objectFit: 'contain' }} />
+          <img src="public/img/imG/8823b6e8-8430-446b-a5cc-b96501e6b787.png" alt="Doces Mirahy Logo" style={{ height: '50px', objectFit: 'contain' }} />
         </a>
         <ul className="nav-links">
           {navLinks.map((link) => (
